@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const PORT = process.env.PORT || 8008;
+const PORT = process.env.PORT || 3000;
 
 const mergeAndSortUniqueNumbers = (arrays) => {
   const mergedArray = [].concat(...arrays);
